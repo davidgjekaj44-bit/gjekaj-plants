@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gjekaj Plants | Ornamental Trees & Plant Nursery in Albania</title>
+  <meta name="description" content="Gjekaj Plants is a professional plant nursery in Dajç, Shkodër, Albania, supplying ornamental trees, conifers, shrubs, Photinia Red Robin, Magnolia, flowers, transport and planting services for European landscaping projects." />
+  <meta name="keywords" content="ornamental trees Albania, plant nursery Albania, decorative trees Albania, Photinia Red Robin Albania, conifers Albania, Leylandii Albania, Magnolia grandiflora Albania, wholesale plants Europe, landscape plants supplier, Gjekaj Plants" />
+  <meta name="author" content="Gjekaj Plants" />
+  <meta property="og:title" content="Gjekaj Plants | Ornamental Trees & Plant Nursery in Albania" />
+  <meta property="og:description" content="Ornamental trees, shrubs, conifers and landscape plants from Dajç, Shkodër, Albania." />
+  <meta property="og:image" content="images/photinia-red-robin-nursery-rows.jpg" />
+  <style>
+    :root{
+      --green:#123f29;
+      --green2:#17613a;
+      --lime:#75bd42;
+      --bg:#f5f8f2;
+      --text:#173b25;
+      --muted:#526657;
+      --white:#fff;
+    }
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+    header{background:rgba(18,63,41,.96);color:white;padding:16px 7%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:1000;box-shadow:0 8px 20px rgba(0,0,0,.15)}
+    .logo{font-size:28px;font-weight:800;letter-spacing:.5px}
+    nav a{color:white;text-decoration:none;margin-left:20px;font-weight:700;font-size:15px}
+    nav a:hover{color:#b7ef83}
+    .hero{min-height:92vh;background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.48)),url("images/photinia-red-robin-nursery-rows.jpg") center/cover no-repeat;color:white;display:flex;align-items:center;padding:0 7%}
+    .hero-content{max-width:820px}
+    .eyebrow{text-transform:uppercase;letter-spacing:2px;font-weight:800;color:#c9ff9d;margin-bottom:14px}
+    .hero h1{font-size:58px;line-height:1.08;margin-bottom:22px}
+    .hero p{font-size:21px;max-width:780px;margin-bottom:32px}
+    .btn{display:inline-block;background:var(--lime);color:white;padding:15px 30px;border-radius:35px;text-decoration:none;font-weight:800;margin:6px 10px 6px 0}
+    .btn.secondary{background:transparent;border:2px solid white}
+    section{padding:78px 7%;text-align:center}
+    section h2{font-size:38px;line-height:1.2;margin-bottom:16px;color:var(--green)}
+    .intro{max-width:900px;margin:0 auto 38px;font-size:18px;color:var(--muted)}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:26px;margin-top:34px}
+    .card{background:white;border-radius:20px;box-shadow:0 10px 28px rgba(0,0,0,.09);overflow:hidden;text-align:left}
+    .card img{width:100%;height:245px;object-fit:cover;display:block}
+    .card-body{padding:24px}
+    .card h3{color:var(--green2);font-size:22px;margin-bottom:10px}
+    .about{background:white}
+    .services{background:#eef6ea}
+    .gallery-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px;margin-top:35px}
+    .gallery-grid img{width:100%;height:100%;min-height:260px;object-fit:cover;border-radius:18px;box-shadow:0 10px 25px rgba(0,0,0,.14)}
+    .wide{grid-column:span 8}
+    .small{grid-column:span 4}
+    .half{grid-column:span 6}
+    .export{background:var(--green);color:white}
+    .export h2{color:white}
+    .export .intro{color:#e5f2df}
+    .export .card{color:var(--text)}
+    .contact{background:#eef6ea}
+    .contact-box{max-width:850px;margin:auto;background:white;padding:36px;border-radius:22px;box-shadow:0 10px 28px rgba(0,0,0,.1);text-align:left}
+    .contact-box p{font-size:18px;margin-bottom:12px}
+    .contact-box a{color:var(--green2);font-weight:800;text-decoration:none}
+    .whatsapp-float{position:fixed;right:22px;bottom:22px;background:#25D366;color:white;padding:14px 20px;border-radius:999px;text-decoration:none;font-weight:800;box-shadow:0 10px 25px rgba(0,0,0,.25);z-index:2000}
+    footer{background:#0b2719;color:white;text-align:center;padding:24px}
+    @media(max-width:850px){
+      header{flex-direction:column;gap:12px}
+      nav{text-align:center}
+      nav a{margin:0 7px;font-size:14px}
+      .hero h1{font-size:40px}
+      .hero p{font-size:18px}
+      .wide,.small,.half{grid-column:span 12}
+      .gallery-grid img{min-height:300px}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Gjekaj Plants</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#plants">Plants</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#services">Services</a>
+    <a href="#export">Europe</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <div class="eyebrow">Dajç, Shkodër · Albania</div>
+    <h1>Ornamental Trees & Landscape Plants for European Projects</h1>
+    <p>
+      Gjekaj Plants grows and supplies ornamental trees, conifers, shrubs and decorative plants
+      for gardens, villas, hotels, resorts, garden centers and landscaping companies.
+    </p>
+    <a class="btn" href="https://wa.me/355697232425">Request a Quote on WhatsApp</a>
+    <a class="btn secondary" href="#gallery">View Nursery</a>
+  </div>
+</section>
+
+<section class="about">
+  <h2>Professional Plant Nursery in Albania</h2>
+  <p class="intro">
+    Located in Dajç, Shkodër, Gjekaj Plants offers healthy, carefully cultivated ornamental
+    plants grown in Albania’s Mediterranean climate. We support clients with plant selection,
+    transport and professional planting services.
+  </p>
+</section>
+
+<section id="plants">
+  <h2>Our Main Plants</h2>
+  <p class="intro">A selection of nursery-grown plants suitable for private gardens, commercial spaces and landscape projects.</p>
+
+  <div class="cards">
+    <div class="card">
+      <img src="images/photinia-red-robin-nursery-rows.jpg" alt="Photinia Red Robin trees in nursery rows at Gjekaj Plants">
+      <div class="card-body">
+        <h3>Photinia Red Robin</h3>
+        <p>Decorative red-leaf trees and shrubs for gardens, entrances, hotels and landscape borders.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/leylandii-conifers-field.jpg" alt="Leylandii conifers at Gjekaj Plants nursery">
+      <div class="card-body">
+        <h3>Conifers & Leylandii</h3>
+        <p>Evergreen conifers ideal for privacy, hedges, wind protection and elegant green structure.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/magnolia-grandiflora-young-plants.jpg" alt="Young Magnolia Grandiflora plants in pots">
+      <div class="card-body">
+        <h3>Magnolia Grandiflora</h3>
+        <p>Glossy evergreen ornamental plants for refined gardens and premium outdoor spaces.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/conifers-and-flowering-plants-transport.jpg" alt="Conifers and flowering plants prepared for transport">
+      <div class="card-body">
+        <h3>Flowering Plants</h3>
+        <p>Colorful decorative plants prepared for landscaping, garden centers and client deliveries.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <h2>Services</h2>
+  <p class="intro">From plant supply to delivery and planting, we help create strong and beautiful outdoor spaces.</p>
+
+  <div class="cards">
+    <div class="card"><div class="card-body"><h3>Wholesale & Retail Supply</h3><p>Ornamental trees, shrubs, conifers and flowering plants for small and large orders.</p></div></div>
+    <div class="card"><div class="card-body"><h3>Transport</h3><p>Plants can be prepared and loaded for transport depending on destination and order size.</p></div></div>
+    <div class="card"><div class="card-body"><h3>Professional Planting</h3><p>Planting support for gardens, villas, hotels, resorts and landscape projects.</p></div></div>
+    <div class="card"><div class="card-body"><h3>Landscape Plant Selection</h3><p>Guidance for choosing the right plants for climate, design, privacy and long-term growth.</p></div></div>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>Nursery Gallery</h2>
+  <p class="intro">Real photos from Gjekaj Plants nursery, plant rows and transport preparation.</p>
+
+  <div class="gallery-grid">
+    <img class="wide" src="images/photinia-red-robin-nursery-rows.jpg" alt="Rows of Photinia Red Robin trees at Gjekaj Plants nursery">
+    <img class="small" src="images/magnolia-grandiflora-young-plants.jpg" alt="Young Magnolia plants in pots">
+    <img class="half" src="images/evergreen-conifers-nursery.jpg" alt="Evergreen conifers in nursery rows">
+    <img class="half" src="images/photinia-red-robin-loaded-trailer.jpg" alt="Photinia Red Robin trees loaded for transport">
+    <img class="small" src="images/young-plant-closeup.jpg" alt="Young decorative plant close up">
+    <img class="wide" src="images/conifers-and-flowering-plants-transport.jpg" alt="Conifers and flowering plants prepared in truck">
+    <img class="wide" src="images/leylandii-conifers-field.jpg" alt="Leylandii conifers grown in field">
+  </div>
+</section>
+
+<section class="export" id="export">
+  <h2>For International Buyers</h2>
+  <p class="intro">
+    Gjekaj Plants welcomes inquiries from foreign buyers, landscaping companies, garden centers,
+    hotels, resorts and distributors looking for ornamental plants from Albania.
+  </p>
+
+  <div class="cards">
+    <div class="card"><div class="card-body"><h3>For Landscapers</h3><p>Reliable plant supply for gardens, villas, commercial properties and outdoor design projects.</p></div></div>
+    <div class="card"><div class="card-body"><h3>For Hotels & Resorts</h3><p>Decorative trees and shrubs for entrances, pool areas, paths and premium green spaces.</p></div></div>
+    <div class="card"><div class="card-body"><h3>For Garden Centers</h3><p>Wholesale inquiries are welcome for ornamental trees, conifers, shrubs and decorative plants.</p></div></div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact Gjekaj Plants</h2>
+  <p class="intro">Send your plant list, project details or photos of your space and request an offer.</p>
+
+  <div class="contact-box">
+    <p><strong>Business:</strong> Gjekaj Plants</p>
+    <p><strong>Location:</strong> Dajç, Shkodër, Albania</p>
+    <p><strong>Phone / WhatsApp:</strong> <a href="https://wa.me/355697232425">+355 69 723 2425</a></p>
+    <p><strong>Email:</strong> <a href="mailto:gjekajplants@hotmail.com">gjekajplants@hotmail.com</a></p>
+    <p><strong>Instagram:</strong> <a href="https://www.instagram.com/gjekaj_plants/">@gjekaj_plants</a></p>
+  </div>
+</section>
+
+<a class="whatsapp-float" href="https://wa.me/355697232425">WhatsApp</a>
+
+<footer>
+  <p>© 2026 Gjekaj Plants. Ornamental Trees & Plant Nursery in Albania.</p>
+</footer>
+
+</body>
+</html>
